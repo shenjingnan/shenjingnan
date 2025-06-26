@@ -10,6 +10,7 @@ export NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node/
 export YARN_DISTURL=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export PYTHON_BUILD_MIRROR_URL="https://pypi.tuna.tsinghua.edu.cn"
+export CHROMIUM_EXECUTABLE_PATH=/opt/homebrew/bin/chromium
 path=(
   $path
   $HOME/bin:/usr/local/bin
@@ -26,12 +27,10 @@ plugins=(
   wd
   git
   zsh-autosuggestions
-  nvm
   autojump
   command-not-found
 )
 
-zstyle ':omz:plugins:nvm' autoload yes
 #zstyle ':omz:plugins:nvm' autoload yes
 
 ZSH_THEME=pmcgee
@@ -54,13 +53,20 @@ bindkey -v
 
 # alias
 alias df='duf'
-alias ls='exa'
-alias ll="exa -la"
+alias ls='lsd'
+alias ll="lsd -la"
 alias vim='nvim'
 alias lg="lazygit"
 alias config_zsh="vim ~/.zshrc"
 alias config_proxy_conf="vim ~/.config/clash/n3.leensasf.us.yaml"
 alias bcopy='git branch --show-current | xargs echo -n | clipcopy && echo "copied"'
+
+function load_idf() {
+  eval "source ~/.espressif/python_env/idf5.3_py3.9_env/bin/activate"
+  eval ". $HOME/esp/esp-idf/export.sh"
+}
+
+export IDF_PATH="$HOME/esp/esp-idf"
 
 # Lazyload pyenv
 # _pyenv_loaded=false
@@ -89,3 +95,29 @@ alias bcopy='git branch --show-current | xargs echo -n | clipcopy && echo "copie
 # }
 
 # zprof
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/homebrew/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/homebrew/Caskroom/miniconda/base/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
+# 禁用 Jansi 库
+export JANSI_MODE=strip
+# 如果是 Maven 相关问题，还可以添加
+export MAVEN_OPTS="$MAVEN_OPTS -Djansi.passthrough=true -Djansi.strip=true"
+
