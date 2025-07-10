@@ -1,1 +1,2 @@
-
+- 可定制的mcp服务？
+- 语音对话 -> AI summary -> 驱动AI编程，这可能比现在打字快？因为现在使用Claude Code发现打字是一个障碍，也许Gemini CLI可能会支持这种能力?
