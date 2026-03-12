@@ -1,7 +1,0 @@
-set clipboard=unnamed
-set ignorecase
-set smartcase
-
-editor.guides.visual.columns=80
-
-
