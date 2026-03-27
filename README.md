@@ -14,3 +14,6 @@
 - [xiaozhi-replica](https://github.com/shenjingnan/xiaozhi-replica) - 复刻 xiaozhi-esp32 开源项目的一些有趣功能
 - [esp32-bluetooth-demo](https://github.com/shenjingnan/esp32-bluetooth-demo) - esp32 蓝牙示例代码
 - [esp32-wifi-demo](https://github.com/shenjingnan/esp32-wifi-demo) - esp32 WIFI 示例代码
+
+## 模板
+- [ai-typescript-starter](https://github.com/shenjingnan/ai-typescript-starter) - 一个 AI Native 的 Typescript 项目快速启动模板，充分考虑工程约束尽可能让AI持续高质量迭代
