@@ -12,6 +12,7 @@
 ## ESP32 相关
 
 - [xiaozhi-replica](https://github.com/shenjingnan/xiaozhi-replica) - 复刻 xiaozhi-esp32 开源项目的一些有趣功能
+- [esp32-examples](https://github.com/shenjingnan/esp32-examples) - 一些实用的 ESP32 示例代码合集
 - [esp32-bluetooth-demo](https://github.com/shenjingnan/esp32-bluetooth-demo) - esp32 蓝牙示例代码
 - [esp32-wifi-demo](https://github.com/shenjingnan/esp32-wifi-demo) - esp32 WIFI 示例代码
 
