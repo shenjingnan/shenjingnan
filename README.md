@@ -9,6 +9,7 @@
 - [bedbook](https://github.com/shenjingnan/bedbook) - 睡前故事MCP，你可以用它接入到任意语音助手，给宝宝讲故事听
 - [home-mcp](https://github.com/shenjingnan/home-mcp) - 智能家居MCP，通过与HomeAssistant打通，实现控制智能设备
 - [api2mcp](https://github.com/shenjingnan/api2mcp) - OpenAPI to MCP 让 AI 助手直接调用您的 API
+- [skill2mcp](https://github.com/shenjingnan/skill2mcp) - 将 Skills 转成 MCP，允许远程 Agent 通过 Skill 控制本地
 
 ## ESP32 相关
 
