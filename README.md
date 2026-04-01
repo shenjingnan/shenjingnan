@@ -2,6 +2,7 @@
 
 - [xiaozhi-client](https://github.com/shenjingnan/xiaozhi-client) - 提供MCP聚合、与ESP32音视频通信等功能，用于增强小智AI的使用场景
 - [univoice](https://github.com/shenjingnan/univoice) - 统一的 ASR & TTS 服务调用SDK
+- [openmanual](https://github.com/shenjingnan/openmanual) - AI友好的文档系统，专注于文档编写，开箱即用
 
 ## MCP 相关
 - [bestmcp](https://github.com/shenjingnan/bestmcp) - 一个简单的 MCP 框架，允许你使用 TS 装饰器创建 MCP (类似 python 中的 fastmcp)
