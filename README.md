@@ -20,4 +20,4 @@
 
 ## 模板
 - [ai-typescript-starter](https://github.com/shenjingnan/ai-typescript-starter) --- 一个 AI Native 的 Typescript 项目快速启动模板
-- [ai-typescript-starter](https://github.com/shenjingnan/ai-rust-starter) --------- 一个 AI Native 的 Rust 项目快速启动模板
+- [ai-rust-starter](https://github.com/shenjingnan/ai-rust-starter) --------- 一个 AI Native 的 Rust 项目快速启动模板
