@@ -5,6 +5,7 @@
 - [openmanual](https://github.com/shenjingnan/openmanual) - AI友好的文档系统，专注于文档编写，开箱即用
 - [flashy](https://github.com/shenjingnan/flashy) - ESP32 固件在线烧录工具
 - [zapmomo](https://github.com/shenjingnan/zapmomo) - 桌面AI助手，主打一个陪伴
+- [soundfn](https://github.com/shenjingnan/soundfn) - 本地化部署ASR/TTS模型整合包
 
 ## MCP 相关
 - [bestmcp](https://github.com/shenjingnan/bestmcp) - 一个简单的 MCP 框架，允许你使用 TS 装饰器创建 MCP (类似 python 中的 fastmcp)
