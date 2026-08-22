@@ -1,16 +1,19 @@
 ## 软件向
+> 老本行 :)
 - [xiaozhi-client](https://github.com/shenjingnan/xiaozhi-client) - 提供MCP聚合、与ESP32音视频通信等功能，用于增强小智AI的使用场景
 - [univoice](https://github.com/shenjingnan/univoice) - 统一的 ASR & TTS 服务调用SDK
 - [flashy](https://github.com/shenjingnan/flashy) - ESP32 固件在线烧录工具
 - [dsh-work](https://github.com/shenjingnan/dsh-work) - Deepseek Harness 桌面版（启动器）
 
 ## 硬件向
+> 探索AI+硬件的可能性
 - [xiaozhi-replica](https://github.com/shenjingnan/xiaozhi-replica) - 复刻 xiaozhi-esp32 开源项目的一些有趣功能
 - [esp32-examples](https://github.com/shenjingnan/esp32-examples) - 一些实用的 ESP32 示例代码合集
 - [esp32-bluetooth-demo](https://github.com/shenjingnan/esp32-bluetooth-demo) - esp32 蓝牙示例代码
 - [esp32-wifi-demo](https://github.com/shenjingnan/esp32-wifi-demo) - esp32 WIFI 示例代码
 
 ## AI向
+> 探索AI的可能性
 - [zapmomo](https://github.com/shenjingnan/zapmomo) - 桌面AI助手，主打一个陪伴
 - [audiofn](https://github.com/shenjingnan/audiofn) - 本地化部署ASR/TTS模型整合包
 - [bestmcp](https://github.com/shenjingnan/bestmcp) - 一个简单的 MCP 框架，允许你使用 TS 装饰器创建 MCP (类似 python 中的 fastmcp)
@@ -20,5 +23,6 @@
 - [skill2mcp](https://github.com/shenjingnan/skill2mcp) - 将 Skills 转成 MCP，允许远程 Agent 通过 Skill 控制本地
 
 ## 模板
+> 快速造轮子
 - [ai-typescript-starter](https://github.com/shenjingnan/ai-typescript-starter) - 一个 AI Native 的 Typescript 项目快速启动模板
 - [ai-rust-starter](https://github.com/shenjingnan/ai-rust-starter) - 一个 AI Native 的 Rust 项目快速启动模板
