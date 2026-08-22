@@ -1,9 +1,11 @@
 ## 软件向
-> 老本行 :)
+> 探索AI+软件的可能性
 - [xiaozhi-client](https://github.com/shenjingnan/xiaozhi-client) - 提供MCP聚合、与ESP32音视频通信等功能，用于增强小智AI的使用场景
 - [univoice](https://github.com/shenjingnan/univoice) - 统一的 ASR & TTS 服务调用SDK
 - [flashy](https://github.com/shenjingnan/flashy) - ESP32 固件在线烧录工具
 - [dsh-work](https://github.com/shenjingnan/dsh-work) - Deepseek Harness 桌面版（启动器）
+- [zapmomo](https://github.com/shenjingnan/zapmomo) - 桌面AI助手，主打一个陪伴
+- [audiofn](https://github.com/shenjingnan/audiofn) - 本地化部署ASR/TTS模型整合包
 
 ## 硬件向
 > 探索AI+硬件的可能性
@@ -14,8 +16,6 @@
 
 ## AI向
 > 探索AI的可能性
-- [zapmomo](https://github.com/shenjingnan/zapmomo) - 桌面AI助手，主打一个陪伴
-- [audiofn](https://github.com/shenjingnan/audiofn) - 本地化部署ASR/TTS模型整合包
 - [bestmcp](https://github.com/shenjingnan/bestmcp) - 一个简单的 MCP 框架，允许你使用 TS 装饰器创建 MCP (类似 python 中的 fastmcp)
 - [bedbook](https://github.com/shenjingnan/bedbook) - 睡前故事MCP，你可以用它接入到任意语音助手，给宝宝讲故事听
 - [home-mcp](https://github.com/shenjingnan/home-mcp) - 智能家居MCP，通过与HomeAssistant打通，实现控制智能设备
